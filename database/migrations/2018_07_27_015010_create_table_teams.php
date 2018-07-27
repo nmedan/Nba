@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableNews extends Migration
+class CreateTableTeams extends Migration
 {
     /**
      * Run the migrations.
@@ -23,6 +23,13 @@ class CreateTableNews extends Migration
             ->onDelete('cascade');
             $table->timestamps();
         });
+
+        Schema::create('new_team', function (Blueprint $table) {
+            $table->integer('new_id');
+            $table->integer('team_id');
+            $table->primary(['new_id', 'team_id']);
+        });
+         
     }
 
     /**
@@ -33,5 +40,6 @@ class CreateTableNews extends Migration
     public function down()
     {
         Schema::dropIfExists('news');
+         Schema::dropIfExists('new_team');
     }
 }

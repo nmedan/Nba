@@ -35,3 +35,6 @@ Route::get('/logout', 'LoginController@destroy')->name('logout');
 Route::get('/news', 'NewsController@index');
 
 Route::get('/news/{id}', 'NewsController@show');
+
+Route::get('/news/team/{name}', 'NewsController@filterByTeam');
+

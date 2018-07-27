@@ -8,12 +8,9 @@
     "\\config",
     "\\database",
     "\\database\\factories",
-    "\\database\\seeds",
-    "\\resources",
-    "\\resources\\views",
-    "\\resources\\views\\news",
+    "\\database\\migrations",
     "\\routes"
   ],
-  "SelectedNode": "\\database\\seeds\\DatabaseSeeder.php",
+  "SelectedNode": "\\database\\migrations\\2018_07_27_015010_create_table_teams.php",
   "PreviewInSolutionExplorer": false
 }
