@@ -1,0 +1,1 @@
+<h2>Some words in your comment are not allowed.</h2>
