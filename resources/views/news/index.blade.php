@@ -12,4 +12,8 @@
 @endforeach
 
 </div>
+<<<<<<< HEAD
 @endsection
+=======
+@endsection
+>>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3

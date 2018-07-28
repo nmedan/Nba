@@ -29,4 +29,7 @@ $factory->define(App\News::class, function (Faker $faker) {
         'content' => $faker->text,
     ];
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3

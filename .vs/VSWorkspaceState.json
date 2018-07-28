@@ -7,10 +7,18 @@
     "\\app\\Http\\Controllers\\Auth",
     "\\config",
     "\\database",
+<<<<<<< HEAD
     "\\database\\migrations",
     "\\resources",
     "\\resources\\views"
   ],
   "SelectedNode": "\\resources\\views",
+=======
+    "\\database\\factories",
+    "\\database\\migrations",
+    "\\routes"
+  ],
+  "SelectedNode": "\\database\\migrations\\2018_07_27_015010_create_table_teams.php",
+>>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3
   "PreviewInSolutionExplorer": false
 }
