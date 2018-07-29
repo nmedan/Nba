@@ -20,14 +20,18 @@
     </div>
 </div>
 
-<div>
-<p><h5>Players </h5></p>
-@foreach ($team->players as $player)
-      <div>          
-          <a href="/players/{{$player->id}}">{{$player->first_name}}  {{$player->last_name}}</a>
-      </div>
-@endforeach
-</div>
+ <div>
+            <p>
+            <h5>Teams</h5>
+            <ol class="list-unstyled">
+                   @foreach($team->players as $player)
+                       <li>
+                             <a href="/players/{{$player->id}}">{{$player->first_name}}  {{$player->last_name}}</a>
+                       </li>
+                   @endforeach
+            </ol>
+            </p>
+ </div>
 
 <div>
    <p><h5>Post a comment</h5></p>

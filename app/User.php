@@ -29,13 +29,9 @@ class User extends Authenticatable
     public function comments() {
         return $this->hasMany(Comment::class);
     }
-<<<<<<< HEAD
-	
-	public function news() {
-=======
 
     public function news() {
->>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3
+
         return $this->hasMany(News::class);
     }
 }

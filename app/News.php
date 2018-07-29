@@ -10,6 +10,10 @@ use App\Team;
 
 class News extends Model
 {
+    protected $fillable = [
+        'title', 'contents', 'user_id'
+    ];
+
     public function user() {
         return $this->belongsTo(User::class);
     }

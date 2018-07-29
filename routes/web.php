@@ -34,11 +34,11 @@ Route::get('/logout', 'LoginController@destroy')->name('logout');
 
 Route::get('/news', 'NewsController@index');
 
+Route::post('/news', 'NewsController@store');
+
+Route::get('/news/create', 'NewsController@create');
+
 Route::get('/news/{id}', 'NewsController@show');
 
-<<<<<<< HEAD
 Route::get('/news/team/{name}', 'NewsController@filterByTeams');
-=======
-Route::get('/news/team/{name}', 'NewsController@filterByTeam');
 
->>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3

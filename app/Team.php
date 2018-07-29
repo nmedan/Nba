@@ -6,11 +6,8 @@ use App\Player;
 
 use App\Comment;
 
-<<<<<<< HEAD
 use App\Team;
 
-=======
->>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3
 use App\News;
 
 use Illuminate\Database\Eloquent\Model;
@@ -30,10 +27,6 @@ class Team extends Model
     }
 
     public function news() {
-<<<<<<< HEAD
         return $this->belongsToMany(News::class);
-=======
-        return $this->hasMany(News::class);
->>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3
     }
 }

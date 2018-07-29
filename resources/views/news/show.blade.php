@@ -12,17 +12,21 @@
     <div>
         <b>Created at: </b>{{$new->created_at}}
     </div>
-<<<<<<< HEAD
 </div>
 
-<div>
-=======
-    {{dd("000")}}
-    @foreach($new->teams as $team)
-        <a href="/teams/{{$team->id}}"></a>,
-    @endforeach
-</div>
-
-<div>
+ 
+     <div>
+            <p>
+            <h5>Teams</h5>
+            <ol class="list-unstyled">
+                   @foreach($new->teams as $team)
+                       <li>
+                             <a href="/teams/{{$team->id}}">{{$team->name}}</a>
+                       </li>
+                   @endforeach
+            </ol>
+            </p>
+     </div>
+    
+         
 @endsection
->>>>>>> fcebf8b9daaf19e60027db61885049c400079ac3
